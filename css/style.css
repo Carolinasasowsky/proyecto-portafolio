@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    
+}
+
+section {
+    width: 100%;
+    margin: auto;
+}
+
+/* Diseño de la barra de navegación / Navbar*/
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #F68396;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #75040f;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: rgb(249, 81, 81);
+}
+
+/*sección header: presentación: esto es contenido e imágen*/
+
+.hola {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-90deg, #F68396 30%,  rgba(255, 215, 185, 0.91) 15%,  rgba(246, 131, 150, 0.8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+   /* border: 3px solid black;*/
+}
+
+.hola .contenido {
+    width: 900px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+          
+}
+
+.hola .imagen img {
+    width: 450px;
+        
+}
+
+.hola .imagen {
+    width: 150px;
+}
+
+.saludo  {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sobre-mi {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(92, 88, 88);
+    margin-bottom: 40px;
+}
