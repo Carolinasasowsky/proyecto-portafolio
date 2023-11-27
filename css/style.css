@@ -10,7 +10,7 @@
 
 body {
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    
+       
 }
 
 section {
@@ -28,7 +28,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   z-index: 100;
+    z-index: 100;
 }
 
 .logo {
