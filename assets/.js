@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     const iconToggle = document.querySelector('.toggle_icon');
     const navbarMenu = document.querySelector('.menu');
     const menuLinks = document.querySelectorAll('.menu_link');
@@ -17,4 +17,4 @@ document.addEventListener('DOMContentLoaded', () => {
             navbarMenu.classList.remove('active');
         });
     });
-});
+});*/
