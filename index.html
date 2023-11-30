@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/styles.css"/>
     <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/conocimientos.css"
+    <link rel="stylesheet" href="/assets/css/conocimientos.css">
+    <link rel="stylesheet" href="/assets/css/contacto.css">
     <script src="/assets/js"></script>
     <!--iconos-->
     <script src="https://kit.fontawesome.com/1bf436c0a6.js" crossorigin="anonymous"></script>
@@ -15,24 +16,20 @@
     <title>proyecto-portafolio</title>
   </head>
   <body>
-        <Header>
+        <header>
         <!-- =============== Comienzo de la barra de navegación =============== -->
               <nav>
                 <div class="nav__content">
                   <a href="#" class="logo">Porta<span>Folio</span></a>
-                  <!--<label for="check" class="checkbox">
-                    <i class="ri-menu-line"></i>
-                  </label>
-                  <input type="checkbox" name="check" id="check" />-->
                   <ul>
                     <li><a href="#">Hola</a></li>
                     <li><a href="#">Conocimientos</a></li>
                     <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" class="contac">Contacto</a></li>
                   </ul>
                 </div>
               </nav>
-        </Header>
+        </header>
         
     <!-- ==============Fin de la barra de navegacion=============== -->
 
@@ -40,15 +37,15 @@
     <section class="section">
       <div class="section__container">
         <div class="content">
-          <p class="subtitle">¡Hola! soy</p>
+          <p class="subtitle">¡Hola soy!</p>
                 <h1 class="title">
-                <span>María Carolina Sasowsky</span>
+                María Carolina Sasowsky
                 </h1>
           <p class="description">
             Desarrolladora Web Frontend y Diseñadora Gráfica. 
           </p>
           <div class="action__button">
-            <button class="lo_que_hago">LO QUE HAGO</button>
+            <button class="lo_que_hago"><a href="#conocimientos">LO QUE HAGO></a></button>
           </div>
         </div>
         <div class="image">
@@ -59,37 +56,54 @@
     <!-- ==============Fin de la section Hola y Foto=============-->
 
     <!-- ==============Inicio section Conocimientos=============-->
-    <section id="conocimientos"><!--conocimientos-->
-        <div class="container">
-               <div class="content-section">
-                   <div class="card">
-                         <img src="/assets/logotml5.png">
-                         <h2>HTML 5</h2> <!--card one-->
-                   </div>
-               </div>
-               <div class="content-section">
-                <div class="card">
-                      <img src="/assets/logocss.png">
-                      <h2>CSS</h2> <!--card TWO-->
-                </div>
-            </div>
-            <div class="content-section">
-              <div class="card">
-                    <img src="/assets/logosass.png">
-                    <h2>Sass</h2> <!--card three-->
-              </div>
+    <section id="conocimientos">
+      <div class="container">
+          
+          <h2 class="heading">Mis Conocimientos</h2>
 
-                                  
-                             
+        <div class="box-container">
+
+          <div class="box">
+                  <img src="/assets/logohtml.png" alt="">
+                  <h3>HTML 5</h3>
           </div>
-        </div>
+
+          <div class="box">
+                    <img src="/assets/logocss.png" alt="">
+                    <h3>CSS</h3>
+          </div>
+
+          <div class="box">
+                    <img src="/assets/logojs.png" alt="">
+                    <h3>JS</h3>
+          </div>
+
+          <div class="box">
+                    <img src="/assets/logosass.png" alt="">
+                    <h3>Sass</h3>
+          </div>
+
+          <div class="box">
+                    <img src="/assets/logogit.png" alt="">
+                    <h3>Git</h3>
+          </div>
+
+          <div class="box">
+                    <img src="/assets/logoreact.png" alt="">
+                    <h3>React</h3>
+          </div>
+    </div>
     </section> 
 
     
 
 
     <!-- ==============Inicio section Proyectos=============-->
-    <section id="proyectos"></section>
+    <section class="section">
+          <div class="class="section-contact">
+
+          </div>  
+    </section>
 
     <!-- ==============Inicio section Contacto=============-->
     <section id="contacto"></section>
