@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ::::::::::::frase::::::::::::*/
+
+.frase-container {
+  background:  #b34f60;
+  padding: 15px 9%;
+  padding-bottom: 100px;
+}
+
+.frase-container .grupo-1 {
+  text-align: center;
+  padding-bottom: 15px;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 45px;
+}
+
+.frase-container .grupo-1 .quote imagen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* centra los elementos del contenido horizontalmente*/
+    align-items: center; /* centra los elementos del contenido verticalmente*/
+    padding-bottom: 20px;       
+  }
+
+
+.frase-container .grupo-1 .imagen {
+  display: grid;
+  place-items: center;
+  padding: 50px;
+ }
+
+.frase-container .grupo-1 .text p {
+    color: white;
+    margin-bottom: 10px; /* margen inferior*/
+    font-size: 2rem;
+}
+
+
+@media screen and  (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+        width: 80%;
+        padding: 35px 0px;
+    }
+}

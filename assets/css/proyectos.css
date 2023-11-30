@@ -27,7 +27,7 @@
     font-size: 45px;
 }
 
-.container .box-container {
+.container .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 15px;
@@ -37,7 +37,7 @@
 
 }
 
-.container .box-container .box {
+.container .card-container .card {
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: #fff;
@@ -45,19 +45,20 @@
     padding: 30px 20px;
 }
 
-.container .box-container .box img {
-    height: 100px;
+.container .card-container .card img {
+    height: 150px;
 }
 
-.container .box-container .box h3 {
-    color: #444;
-    font-size: 22px;
+.container .card-container .card h3 {
+    color: grey;
+    font-size: 16px;
     padding: 10px 0;
     line-height: 1.8;
+    margin: 40px 0px 16px;
   
 }
 
-.container .box-container .box:hover{
+.container .card-container .card:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
@@ -67,4 +68,3 @@
         padding: 20px;
      }
 }
-

@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/styles.css"/>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/conocimientos.css">
-    <link rel="stylesheet" href="/assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/conocimientos.css">
+    <link rel="stylesheet" href="assets/css/frase.css">
+    <link rel="stylesheet" href="assets/css/proyectos.css"
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    
     <script src="/assets/js"></script>
     <!--iconos-->
     <script src="https://kit.fontawesome.com/1bf436c0a6.js" crossorigin="anonymous"></script>
-    <enlace rel="hoja de estilo" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!--enlace rel="hoja de estilo" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"-->
           
-    <title>proyecto-portafolio</title>
+  <title>proyecto-portafolio</title>
   </head>
   <body>
         <header>
@@ -22,10 +25,10 @@
                 <div class="nav__content">
                   <a href="#" class="logo">Porta<span>Folio</span></a>
                   <ul>
-                    <li><a href="#">Hola</a></li>
-                    <li><a href="#">Conocimientos</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#" class="contac">Contacto</a></li>
+                    <li><a href="#hola">Hola</a></li>
+                    <li><a href="#conocimientos">Conocimientos</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#">Contacto</a></li>
                   </ul>
                 </div>
               </nav>
@@ -34,7 +37,7 @@
     <!-- ==============Fin de la barra de navegacion=============== -->
 
     <!-- ==============Comienzo section Hola y Foto=============-->
-    <section class="section">
+    <section id="hola">
       <div class="section__container">
         <div class="content">
           <p class="subtitle">¡Hola soy!</p>
@@ -45,7 +48,7 @@
             Desarrolladora Web Frontend y Diseñadora Gráfica. 
           </p>
           <div class="action__button">
-            <button class="lo_que_hago"><a href="#conocimientos">LO QUE HAGO></a></button>
+            <button class="lo_que_hago"><a href="#proyectos">LO QUE HAGO></a></button>
           </div>
         </div>
         <div class="image">
@@ -59,22 +62,22 @@
     <section id="conocimientos">
       <div class="container">
           
-          <h2 class="heading">Mis Conocimientos</h2>
+          <h2 class="title_container">Mis Conocimientos</h2>
 
         <div class="box-container">
 
           <div class="box">
-                  <img src="/assets/logohtml.png" alt="">
+                  <img src="assets/logohtml.png" alt="">
                   <h3>HTML 5</h3>
           </div>
 
           <div class="box">
-                    <img src="/assets/logocss.png" alt="">
+                    <img src="assets/logocss.png" alt="">
                     <h3>CSS</h3>
           </div>
 
           <div class="box">
-                    <img src="/assets/logojs.png" alt="">
+                    <img src="assets/logojs.png" alt="">
                     <h3>JS</h3>
           </div>
 
@@ -84,25 +87,79 @@
           </div>
 
           <div class="box">
-                    <img src="/assets/logogit.png" alt="">
+                    <img src="assets/logogit.png" alt="">
                     <h3>Git</h3>
           </div>
 
           <div class="box">
-                    <img src="/assets/logoreact.png" alt="">
+                    <img src="assets/logoreact.png" alt="">
                     <h3>React</h3>
           </div>
     </div>
     </section> 
 
-    
+    <!-- ==============frase=============-->
+<section class="frase">
+   
+    <section class="frase-container">
+      
+      <div class="grupo-1">
+              <div class="imagen">                                        
+                    <img src="assets/quotewhite.png" alt="quote"/>
+                </div>
+              
+              <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic repellendus doloremque deserunt laboriosam itaque ratione maiores aliquid repellat illo sapiente debitis, magni natus earum numquam quisquam beatae accusantium consequatur exercitationem?</p>
+              </div>     
+      </div>      
+      
+</section>
 
+      <!-- ==============Inicio section Proyectos=============-->
+    <section id="proyectos">
 
-    <!-- ==============Inicio section Proyectos=============-->
-    <section class="section">
-          <div class="class="section-contact">
+         <div class="container">
+                
+                <h2 class="title_container">Mis Proyectos</h2>
 
-          </div>  
+        <div class="card-container">
+
+                <div class="card">
+                        <img src="assets/imgportafolio.png" alt="">
+                        <h3>Portafolio</h3>
+                </div>
+
+                <div class="card">
+                          <img src="assets/imgmemes.png" alt="">
+                          <h3>Generador de memes</h3>
+                </div>
+
+                <div class="card">
+                          <img src="assets/imgmach.png" alt="">
+                          <h3>Mach 3</h3>
+                </div>
+
+                <div class="card">
+                          <img src="/assets/imgwallet.png" alt="">
+                          <h3>Controlador de gastos</h3>
+                </div>
+
+                <div class="card">
+                          <img src="assets/imgcalendary.png" alt="">
+                          <h3>Administrador de reuniones</h3>
+                </div>
+
+                <div class="card">
+                          <img src="assets/imgchecklist.png" alt="">
+                          <h3>Todo app</h3>
+                </div>
+
+                <div class="card">
+                    <img src="assets/imgcine.png" alt="">
+                    <h3>Buscador de películas</h3>
+                </div>
+
+        </div>        
     </section>
 
     <!-- ==============Inicio section Contacto=============-->
