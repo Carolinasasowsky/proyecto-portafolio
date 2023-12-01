@@ -12,6 +12,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+    --primary-color:  #F68396;
+    --primary-color-dark:  #F68396;
+    --secondary-color:  #f75f79;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light:  #fff3f5;
+    --max-width: 1200px;
+  }
+
 .container {
     background:  #f4bcc5;
     padding: 15px 9%;
@@ -22,9 +32,19 @@
 .container .title_container {
     text-align: center;
     padding-bottom: 15px;
-    color: black;
+    color: var(--text-dark);
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
     font-size: 45px;
+}
+
+.container .description {
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    width: 40%;
+    padding: 40px 10px;
+    color: var(--text-dark)
 }
 
 .container .card-container {
