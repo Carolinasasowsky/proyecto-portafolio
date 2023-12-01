@@ -29,6 +29,13 @@ a {
   text-decoration: none;
 }
 
+.action_contact:hover {
+  background-color: var(--primary-color);
+  color: var(--extra-light);
+  border-radius: 15px;
+}
+
+
 nav {
   width: 100%;
   position: fixed;
