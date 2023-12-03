@@ -140,9 +140,38 @@
     }
 
     #contacto .campo,
-    #contacto textarea,
+    /*#contacto textarea,*/
     #contacto .btn-enviar {
         width: 100%;
         margin-bottom: 15px;
+    }
+    #contacto .container-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacto .form {
+        width: 100%;
+        display: contents;
+    }
+
+    #contacto .container-form form textarea {
+        max-width: 420px;
+       /* min-width: 420px;*/
+        /*min-height: 140px;*/
+        max-height: 150px;
+        padding: 10px 10px 10px 5px;
+    }
+
+    #contacto .campo,
+   /* #contacto textarea,*/
+    #contacto .btn-enviar {
+        width: calc(100% - 20px); /* Ajusta el ancho de los elementos y considera márgenes */
+        margin-bottom: 15px;
+    }
+
+    #contacto .btn-enviar {
+        width: 100%; /* Asegura el ancho completo del botón */
     }
 }
