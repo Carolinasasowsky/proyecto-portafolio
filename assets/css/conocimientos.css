@@ -30,11 +30,12 @@
 }
 
 .container .title_container {
+    font-display: flex;
     text-align: center;
-    padding-bottom: 15px;
+   /* padding-bottom: 15px;*/
     color: black;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
-    font-size: 45px;
+    /*text-shadow: 0 5px 10px rgba(0,0,0,.2);*/
+    font-size: 2rem;
 }
 
 .container .paragraph {
@@ -82,9 +83,23 @@
     transform: scale(1.03);
 }
 
-@media screen and (max-width: 800px) {
-    .container {
-        padding: 20px;
+@media only screen and (max-width: 970px) {
+    .container_conocimientos {
+        padding: 10px 5%;
+        
      }
+    
+     .container .title_container {
+        font-size: 2rem !important;
+    }
+
+    .container .paragraph {
+        width: 90%;
+        padding-top: 10px;
+    }
+
+    .container .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, ifr));
+    }
 }
 
