@@ -45,9 +45,32 @@
 }
 
 
-@media screen and  (max-width: 800px) {
-    .pie-pagina .grupo-1 {
-        width: 80%;
-        padding: 35px 0px;
-    }
+@media screen and (max-width: 970px) {
+  .frase-container {
+    padding: 15px 5%;
+    padding-bottom: 50px;
+  }
+
+  .frase-container .grupo-1 {
+    font-size: 30px;
+  }
+
+  .frase-container .grupo-1 .imagen img {
+    width: 100%; /* es para que la imagen ocupe el 100% y no esté cortada*/
+    aspect-ratio: 55/9; /* es para que la imagen se achique */
+    object-position: center;
+    object-fit: contain; /* es para ver como queremos que se vea la imagen */
+  }
+
+  .frase-container .grupo-1 .quote imagen {
+    padding-bottom: 20px;
+  }
+
+  .frase-container .grupo-1 .imagen {
+    padding: 30px;
+  }
+
+  .frase-container .grupo-1 .text p {
+    font-size: 1.2rem !important;
+  }
 }
