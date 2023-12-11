@@ -188,7 +188,8 @@ button a {
   background-color: #F68396;
 }
 
-@media (width < 750px) {
+@media (max-width: 970px) {
+
   nav .checkbox {
     display: block;
   }
@@ -219,11 +220,33 @@ button a {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .section__container .content {
+    margin: auto;
+    display: flex;
+    gap: 20;
+  }
+
+  .section__container .content .title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .section__container .content .subtitle {
+    font-size: 1rem;
+    padding: auto;
+  }
+  
+
   .image {
     grid-area: 1/1/2/2;
   }
 
   .action__button {
     margin: auto;
+  }
+
+  .action__button .lo_que_hago {
+    padding: 0.5rem 0.3rem;
+    font-size: 0.8rem;
   }
 }
