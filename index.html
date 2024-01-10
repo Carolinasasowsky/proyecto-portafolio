@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/conocimientos.css">
-    <link rel="stylesheet" href="assets/css/frase.css">
-    <link rel="stylesheet" href="assets/css/proyectos.css">
-    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/conocimientos.css">
+    <link rel="stylesheet" href="css/frase.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/contacto.css">
     
     <!--iconos-->
     <script src="https://kit.fontawesome.com/1bf436c0a6.js" crossorigin="anonymous"></script>
@@ -178,43 +178,51 @@
     </section>
 
     <!-- ==============Inicio section Contacto=============-->
+    
     <section id="contacto">
       <div class="form">
         <div class="f-container">
-            <div class="container-form">
-                    <div class="info-form">
-                        <h2>Contactame</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore itaque est minus iure labore dolorum cumque aperiam autem quis veritatis.</p>
-                        <a href="@MSasowsky54954"><i class="fa fa-twitter"></i>@MSasowsky54954</a>
-                        
-                        <a href="https://github.com/Carolinasasowsky"><i class="fa fa-github"></i>Git/carolinasasowsky</a>
-
-                        <a href="https://www.linkedin.com/in/mar%C3%ADacarolinasasowsky/"><i class="fa fa-linkedin"></i>/carolinasasowsky</a>
-
-                        <a href="https://walink.co/e1e54d"><i class="fa fa-whatsapp"></i>Contacto</a>
-                    </div>
-
-                    <form action="#" autocomplete="off">
-                            <input type="text" name="nombre"
-                            placeholder="Nombre"
-                            class="campo">
-                            <input type="text" name="apellido"
-                            placeholder="Apellido"
-                            class="campo">
-                            <input type="text" name="email"
-                            placeholder="Email"
-                            class="campo">
-                            <textarea  name="mensaje"
-                            placeholder="Mensaje" rows="3">
-                            </textarea>
-                            <input tipe="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
-                        </form>
-                    
+          <div class="container-form">
+            <div class="info-form">
+              <h2>Contactame</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore itaque est minus iure labore dolorum cumque aperiam autem quis veritatis.</p>
+              <a href="https://twitter.com/MSasowsky54954" aria-label="Twitter"><i class="fa fa-twitter" alt="Twitter"></i>@MSasowsky54954</a>
+              <a href="https://github.com/Carolinasasowsky" aria-label="GitHub"><i class="fa fa-github" alt="GitHub"></i>Git/carolinasasowsky</a>
+              <a href="https://www.linkedin.com/in/mar%C3%ADacarolinasasowsky/" aria-label="LinkedIn"><i class="fa fa-linkedin" alt="LinkedIn"></i>/carolinasasowsky</a>
+              <a href="https://walink.co/e1e54d" aria-label="WhatsApp"><i class="fa fa-whatsapp" alt="WhatsApp"></i>Contacto</a>
             </div>
+            <form action="#" autocomplete="off">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="campo">
+                </div>
+                <div class="form-group">
+                  <label for="apellido">Apellido:</label>
+                  <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="campo">
+                </div>
+              </div>
+               
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Email" class="campo">
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Mensaje" class="campo"></textarea>
+                </div>
+              </div>
+
+              <input type="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
+            </form>
+          </div>
         </div>
-    </div>
-
-
+      </div>
     </section>
     
 

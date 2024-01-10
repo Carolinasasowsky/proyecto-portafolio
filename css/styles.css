@@ -7,21 +7,22 @@
 }
 
 :root {
-  --primary-color:  #F68396;
-  --primary-color-dark:  #F68396;
-  --secondary-color:  #f75f79;
+  --primary-color: #f68396;
+  --primary-color-dark: #f68396;
+  --primary-color-light: #f2e5e7;
+  --secondary-color: #f75f79;
   --text-dark: #1f2937;
   --text-light: #6b7280;
-  --extra-light:  #fff3f5;
+  --extra-light: #fff3f5;
   --max-width: 1200px;
 }
 
 body {
   background-color: #f8e5e8;
   font-family: "Poppins", sans-serif;
- }
+}
 
- section {
+section {
   display: block;
 }
 
@@ -35,14 +36,13 @@ a {
   border-radius: 15px;
 }
 
-
 nav {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #ffffff;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
 
@@ -63,7 +63,7 @@ nav {
 }
 
 .logo span {
-  color: #F68396;
+  color: #f68396;
 }
 
 ul {
@@ -90,7 +90,7 @@ ul li a:hover {
 }
 
 .section {
-  background-color: var(--extra-light)
+  background-color: var(--extra-light);
 }
 
 .section__container {
@@ -177,19 +177,17 @@ button a {
 }
 
 .contac {
-  background-color:  #ffd1d9;
+  background-color: #ffd1d9;
   border-radius: 20px;
   color: black;
-   
 }
 
 .contact :hover {
   color: rgb(252, 170, 170);
-  background-color: #F68396;
+  background-color: #f68396;
 }
 
 @media (max-width: 970px) {
-
   nav .checkbox {
     display: block;
   }
@@ -235,7 +233,6 @@ button a {
     font-size: 1rem;
     padding: auto;
   }
-  
 
   .image {
     grid-area: 1/1/2/2;
