@@ -141,7 +141,8 @@ ul li a:hover {
   gap: 1rem;
 }
 
-.action__button button {
+.action__button a.lo_que_hago {
+  display: inline-block;
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -149,22 +150,21 @@ ul li a:hover {
   outline: none;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.lo_que_hago {
+  transition: background-color 0.3s, color 0.3s;
   background-color: var(--primary-color);
   color: #ffffff;
+  position: relative;
 }
 
-button a {
-  color: white;
-}
-
-.lo_que_hago:hover {
+.action__button a.lo_que_hago:hover {
   background-color: var(--primary-color-dark);
+  cursor: pointer;
+  color: #ffffff; /* Set the text color when hovered */
+  background-image: linear-gradient(90deg, #c60505 0%, #f75f79 49%, #F68396 80%, #c60505 100%);
+  animation: slidebg 3s linear infinite;
 }
+
+
 
 .image {
   display: grid;
