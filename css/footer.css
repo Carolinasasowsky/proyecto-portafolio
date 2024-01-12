@@ -7,47 +7,68 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ::::::::::::footer::::::::::::*/
-
 .pie-pagina {
   width: 100%;
   background-color: #f590a1;
 }
 
-.pie-pagina .grupo-1 {
-  width: 100%;
+.footer-nav-menu {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 0.95rem;
+}
+
+.footer-nav-menu li {
+  margin-right: 10px;
+}
+
+.footer-nav-menu li a {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.footer-nav-menu li a:hover {
+  color: #fff;
+}
+
+.grupo-1 {
   max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
+  grid-gap: 20px;
+  padding: 20px 0px;
+  text-align: center;
 }
 
-.pie-pagina .grupo-1 .box figure {
+.grupo-1 .box figure {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center; /* centra los elementos del contenido horizontalmente*/
-  align-items: center; /* centra los elementos del contenido verticalmente*/
+  justify-content: center;
+  align-items: center;
 }
 
-.pie-pagina .grupo-1 .box figure img {
+.grupo-1 .box figure img {
   width: 250px;
 }
 
-.pie-pagina .grupo-1 .box h2 {
+.grupo-1 .box h2 {
   color: black;
-  margin-bottom: 25px; /* margen inferior*/
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
-.pie-pagina .grupo-1 .box p {
+.grupo-1 .box p {
   color: rgb(59, 59, 59);
-  margin-bottom: 10px; /* margen inferior*/
+  margin-bottom: 5px;
 }
 
-.pie-pagina .grupo-1 .red-social a {
+.grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -60,56 +81,52 @@
   border-radius: 50px;
   transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover {
+
+.grupo-1 .red-social a:hover {
   color: #f590a1;
 }
 
-.pie-pagina .grupo-2 {
+.grupo-2 {
   background-color: black;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
 
-.pie-pagina .grupo-2 small {
+.grupo-2 small {
   font-size: 15px;
 }
 
 @media only screen and (max-width: 970px) {
-  .pie-pagina .grupo-1 {
-    grid-template-columns: 1fr; /*cambiar el diseño a una columna*/
-    grid-gap: 20px;
-    padding: 20px 0px;
-  }
-  .pie-pagina .grupo-1 .box figure img {
-    width: 200px; /* Ajustar el ancho de las imágenes */
-    height: auto; /*Ajusta la altura automaticamente en relación al ancho*/
+  .grupo-1 {
+    grid-template-columns: 1fr;
   }
 
-  .pie-pagina .grupo-1 .box h2 {
-    font-size: 16px; /* Reducir el tamaño de la fuente */
+  .grupo-1 .box figure img {
+    width: 150px;
+  }
+
+  .grupo-1 .box h2 {
+    font-size: 16px;
     text-align: center;
   }
 
-  .pie-pagina .grupo-1 .box p {
+  .grupo-1 .box p {
     text-align: center;
   }
 
-  .pie-pagina .grupo-1 .red-social a {
-    width: 35px; /* Reducir el tamaño de los iconos de redes sociales */
+  .grupo-1 .red-social a {
+    width: 35px;
     height: 35px;
     line-height: 35px;
-    font-size: 14px; /* Reducir el tamaño del texto de los iconos */
+    font-size: 14px;
   }
 
-  .pie-pagina .grupo-1 .box .red-social {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    margin-top: 5%; /* Ajusta el margen superior si es necesario */
+  .grupo-1 .box .red-social {
+    margin-top: 3%;
   }
 
-  .pie-pagina .grupo-2 small {
+  .grupo-2 small {
     font-size: 13px;
   }
 }
