@@ -1,3 +1,5 @@
+![](/assets/img/encabezado.png)
+
 # PROYECTO PORTAFOLIO
 
 ## Introducción
