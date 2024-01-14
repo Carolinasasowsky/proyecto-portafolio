@@ -1,8 +1,8 @@
 ![](/assets/img/encabezado.png)
 
-###  <p align="center"> &nbsp; María Carolina Sasowsky &nbsp; </p>
+# <p align="center"> María Carolina Sasowsky </p>
 
-##  <p align="center"> &nbsp; Desarroladora Fronten | Mgter. en Diseño Editorial | Profesora | Diseñadora Gráfica &nbsp; </p>
+## <p align="center"> Desarrolladora Frontend | Mgter. en Diseño Editorial | Profesora | Diseñadora Gráfica </p>
 
 
 ¡Hola! Te doy la bienvenida a mi portafolio personal, el cual he creado como mi primer proyecto realizado en el marco de la Carrera Desarrollo web frontend en "Ada ITW", Asociación sin fines de lucro. En este portafolio, compilo los primeros pasos que he dado en mi camino para convertirme en una profesional del desarrollo frontend.
