@@ -8,14 +8,13 @@ ________________________________
 
 #### ¡Hola! Te doy la bienvenida a mi portafolio personal, el cual he creado como mi primer proyecto realizado en el marco de la Carrera Desarrollo web frontend en "Ada ITW", Asociación sin fines de lucro. En este portafolio, compilo los primeros pasos que he dado en mi camino para convertirme en una profesional del desarrollo frontend.
 
-<div style="border-bottom: 1px solid #f68396;"></div>
+________________________________
 
 
 ## <p align="center"> Tecnologías utilizadas </p>
 
-<div style="text-align: center;">
-    ![](/assets/img/technologies.png)
-</div>
+![](/assets/img/technologies.png){: style="display: block; margin-left: auto; margin-right: auto;"}
+
 
 
 ## Contenido del portafolio
