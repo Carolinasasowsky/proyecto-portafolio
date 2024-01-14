@@ -4,7 +4,8 @@
 
 ### <p align="center"> Desarrolladora Frontend | Mgter. en Diseño Editorial | Diseñadora Gráfica </p>
 
-<p style="border-bottom: 1px solid #999;"></p>
+<hr style="border: 0.5px solid #999;">
+
 
 #### ¡Hola! Te doy la bienvenida a mi portafolio personal, el cual he creado como mi primer proyecto realizado en el marco de la Carrera Desarrollo web frontend en "Ada ITW", Asociación sin fines de lucro. En este portafolio, compilo los primeros pasos que he dado en mi camino para convertirme en una profesional del desarrollo frontend.
 
