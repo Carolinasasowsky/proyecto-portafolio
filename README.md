@@ -13,7 +13,10 @@ ________________________________
 
 ## <p align="center"> Tecnologías utilizadas </p>
 
-![](/assets/img/technologies.png){: style="display: block; margin-left: auto; margin-right: auto;"}
+<div style="text-align: center;">
+  <img src="/assets/img/technologies.png" alt="" style="display: inline-block;">
+</div>
+
 
 
 
