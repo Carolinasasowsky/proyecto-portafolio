@@ -1,14 +1,12 @@
 ![](/assets/img/encabezado.png)
 
-## # <p align="center"> &nbsp; María Carolina Sasowsky &nbsp; </p>
+###  <p align="center"> &nbsp; María Carolina Sasowsky &nbsp; </p>
+
+##  <p align="center"> &nbsp; Desarroladora Fronten | Mgter. en Diseño Editorial | Profesora | Diseñadora Gráfica &nbsp; </p>
 
 
+¡Hola! Te doy la bienvenida a mi portafolio personal, el cual he creado como mi primer proyecto realizado en el marco de la Carrera Desarrollo web frontend en "Ada ITW", Asociación sin fines de lucro. En este portafolio, compilo los primeros pasos que he dado en mi camino para convertirme en una profesional del desarrollo frontend.
 
-Este proyecto es una página web de portafolio personal.  Este sitio es para mostrar los proyectos que estaré realizando a lo largo del cursado de Desarrollo web frontend. En ésta primera etapa desarrollé la estructura, estilos y secciones principales del portafolio.
-
-## Autor
-
-María Carolina Sasowsky
 
 ## Tecnologías utilizadas
 
