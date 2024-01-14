@@ -1,6 +1,7 @@
 ![](/assets/img/encabezado.png)
 
-<p aling="center">## María Carolina Sasowsky</p>
+## <center>María Carolina Sasowsky</center>
+
 
 Este proyecto es una página web de portafolio personal.  Este sitio es para mostrar los proyectos que estaré realizando a lo largo del cursado de Desarrollo web frontend. En ésta primera etapa desarrollé la estructura, estilos y secciones principales del portafolio.
 
