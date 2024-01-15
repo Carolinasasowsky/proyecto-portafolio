@@ -54,6 +54,8 @@ El énfasis constante en la interactividad desempeña un papel esencial en mi pr
 https://github.com/Carolinasasowsky/proyecto-portafolio/assets/115156100/f9c7807e-c05b-47ce-a7ee-d3198580653a
 
 
-### Si estás interesado en sumergirte más en esta experiencia visual, te invito a explorar el proyecto completo haciendo clic en el siguiente enlace: https://carolinasasowsky.github.io/proyecto-portafolio/ 
+### Si estás interesado en sumergirte más en esta experiencia visual, te animo a explorar el proyecto completo haciendo clic en el siguiente enlace:
+
+ https://carolinasasowsky.github.io/proyecto-portafolio/ 
 
 
