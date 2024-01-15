@@ -25,7 +25,5 @@ Considerando que el principal propósito es captar la atención del usuario o po
 El contenido está estructurado en varias secciones, las cuales puedes explorar al desplazarte por la página o haciendo clic en los elementos que se encuentran en la **Barra de Navegación**. De esta manera, este componente se posiciona como el elemento central del proyecto, ya que logra sintetizar de manera perfecta ambas características: la accesibilidad y la adaptabilidad.
 
 #### <p align="center"> Barra de Navegación y saludo en su versión de Escritorio </p>
-<video>
-  <source src="/assets/video/barra de navegacion y saludo-desktop.mp4" type="video/mp4">
-</video>
+![](/assets/video/barra%20de%20navegacion%20y%20saludo-desktop.mp4)
 
