@@ -13,7 +13,7 @@ ________________________________
 
 ## <p align="center"> Tecnologías utilizadas </p>
 <p align="center">
-  <img width="460" height="300" src="/assets/img/technologies.png">
+  <img src="/assets/img/technologies.png">
 </p>
 
 
