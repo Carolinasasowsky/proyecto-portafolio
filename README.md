@@ -18,13 +18,9 @@ ________________________________
 
 
 
-## Contenido del portafolio
+## <p align="center"> Contenidos que podrás descubrir en su interior </p>
 
-_ Header con links de navegación.
-_ Sección de presentación.
-_ Sección de habilidades.
-_ Sección de Cita.
-_ Sección de proyectos.
-_ Sección y formulario de contacto.
-_ Footer con links de navegación y links de contacto.
+Considerando que el principal propósito es captar la atención del usuario o potencial cliente, este proyecto pone énfasis en dos elementos claves: la accesibilidad y la adaptabilidad para cualquier dispositivo donde se visualice.
+
+El contenido está estructurado en varias secciones, las cuales puedes explorar al desplazarte por la página o haciendo clic en los elementos que se encuentran en la **Barra de Navegación**. De esta manera, este componente se posiciona como el elemento central del proyecto, ya que logra sintetizar de manera perfecta ambas características: la accesibilidad y la adaptabilidad.
 
